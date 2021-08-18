@@ -10,6 +10,7 @@ import { HeroesComponent } from './Components/heroes/heroes.component';
 //Servicios
 import { HeroesService } from './servicios/heroes.service';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeroeComponent } from './components/heroe/heroe.component';
     NavbarComponent,
     AboutComponent,
     HeroesComponent,
-    HeroeComponent
+    HeroeComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

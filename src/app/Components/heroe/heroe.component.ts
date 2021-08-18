@@ -16,5 +16,4 @@ export class HeroeComponent {
       console.log(this.heroe);
     });
   }
-
 }
