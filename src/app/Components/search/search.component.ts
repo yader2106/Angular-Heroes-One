@@ -19,6 +19,7 @@ export class SearchComponent implements OnInit {
       // console.log(this.heroesServicio.buscarHeroes(parametros['termino']));
       this.term = parametros['termino'];
       this.heroes_encontrados = this.heroesServicio.buscarHeroes(parametros['termino']);
+      console.log(this.heroes_encontrados = this.heroesServicio.buscarHeroes(parametros['termino']));
     });
    }
 
